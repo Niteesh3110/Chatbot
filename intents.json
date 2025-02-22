@@ -1,0 +1,114 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Whats up",
+        "What's up",
+        "hey",
+        "Hey"
+      ],
+      "responses": [
+        "Hello!",
+        "Good to see you again!",
+        "Hi there, how can I help?",
+        "Hello buddy!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "cya",
+        "See you later",
+        "Goodbye",
+        "I am Leaving",
+        "Have a Good day",
+        "ill go now",
+        "I'll go now",
+        "I will go now",
+        "i will go now",
+        "see ya",
+        "See ya"
+      ],
+      "responses": [
+        "Sad to see you go :(",
+        "Alright talk to you later",
+        "Goodbye!",
+        "Sayonara"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "how old",
+        "how old is NITS",
+        "how old is nits",
+        "what is your age",
+        "how old are you",
+        "age?",
+        "whats your age",
+        "what's your age"
+      ],
+      "responses": ["I am 21 years old!", "18 years young!"],
+      "context_set": ""
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "what should I call you",
+        "whats your name?",
+        "who are you?",
+        "Who are you"
+      ],
+      "responses": [
+        "You can call me NITS.",
+        "I'm NITS!",
+        "I'm Niteesh aka NITS"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke",
+        "Say something funny",
+        "Make me laugh",
+        "jokes"
+      ],
+      "responses": [
+        "Autocorrect can go straight to he’ll.",
+        "What is the biggest lie in the entire universe? 'I have read and agree to the Terms & Conditions.'",
+        "Why are iPhone chargers not called Apple Juice?!",
+        "How does a computer get drunk? A. It takes screenshots.",
+        "What vegetables do librarians like? A: Quiet peas",
+        "Knock! Knock! Who's there? Voodoo. Voodoo who? Voodoo you think you are, asking all these questions?",
+        "Knock! Knock! Who's there? Hike. Hike who? I didn't know you liked Japanese poetry!",
+        "I ate a clock yesterday, it was very time-consuming.",
+        "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "riddles",
+      "patterns": ["Tell me a riddle", "tell me a riddle"],
+      "responses": [
+        "What has to be broken before you can use it? Answer: An egg",
+        "I’m tall when I’m young, and I’m short when I’m old. What am I? Answer: A candle",
+        "What month of the year has 28 days? Answer: All of them",
+        "What is full of holes but still holds water? Answer: A sponge",
+        "What question can you never answer yes to? Answer: Are you asleep yet?",
+        "What is always in front of you but can’t be seen? Answer: The future"
+      ],
+      "context_set": ""
+    }
+  ]
+}
